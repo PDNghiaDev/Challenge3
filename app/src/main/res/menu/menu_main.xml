@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/add_item"
+        android:title="@string/add_item"
+        android:icon="@mipmap/ic_add_box_white_24dp"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/show_view"
+        android:title="@string/show_view"
+        android:icon="@mipmap/ic_dashboard_white_24dp"
+        android:orderInCategory="200"
+        app:showAsAction="ifRoom" />
+
+</menu>
